@@ -1,0 +1,16 @@
+.laundryPic {
+  background-image: url("images/storeInfoPic.jpg");
+  background-repeat: no-repeat;
+  width: 1038px;
+  height: 950px;
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+}
+
+.hello1 {
+  color: #4e342e;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: center;
+}
