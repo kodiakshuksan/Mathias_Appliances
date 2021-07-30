@@ -2,13 +2,31 @@ body {
   background-image: url("images/landingPagePic.jpg");
 }
 
-.hello {
-  color: #4e342e;
-  justify-content: center;
-  padding-top: 200px;
+.businessName {
   text-align: center;
+  color: #4e342e;
+  padding-top: 140px;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: serif;
 }
 
 a {
   color: #4e342e;
+  float: right;
+  margin-right: 110px;
+}
+
+a.storeInfoLink {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+a:hover {
+  background-color: yellow;
+  color: blueviolet;
+}
+
+a:active {
+  color: red;
 }

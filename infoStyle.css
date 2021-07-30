@@ -1,23 +1,44 @@
 .laundryPic {
   background-image: url("images/storeInfoPic.jpg");
   background-repeat: no-repeat;
-  width: 1038px;
-  height: 950px;
-  background-size: cover;
-  background-position: center;
-  background-position: bottom;
+
+  width: 100%;
+  height: 730px;
+  background-size: 100% 100%;
 }
 
-.storeData {
+p {
+  font-size: 25px;
   color: #4e342e;
-  padding-top: 200px;
+  font-weight: bolder;
 }
 
-.storeInfoNav {
-  color: #4e342e;
-  font-size: 18px;
+p.address {
+  padding-top: 50px;
 }
 
 a {
   color: #4e342e;
+}
+
+a.storeInfoLink {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+a.browseInvLink {
+  font-size: 25px;
+  font-weight: 900;
+  padding-left: 5px;
+}
+
+.barItems {
+  float: inline-end;
+  float: right;
+  margin-right: 20px;
+}
+
+a:hover {
+  background-color: yellow;
+  color: blueviolet;
 }
