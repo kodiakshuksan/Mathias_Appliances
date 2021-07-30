@@ -1,0 +1,10 @@
+body {
+  background-image: url("images/landingPagePic.jpg");
+}
+
+.hello {
+  color: #4e342e;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: center;
+}
