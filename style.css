@@ -23,10 +23,10 @@ a.storeInfoLink {
 }
 
 a:hover {
-  background-color: yellow;
-  color: blueviolet;
+  background-color: blanchedalmond;
+  color: grey;
 }
 
 a:active {
-  color: red;
+  color: bisque;
 }
